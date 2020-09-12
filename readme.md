@@ -1,6 +1,6 @@
 # tdast-util-to-hast-table
 
-[**tdast**][tdast] utility to transform to a [hast][] table node.
+[**tdast**][tdast] utility to transform tdast to a [hast][] table node.
 
 ---
 
