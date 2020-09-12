@@ -241,7 +241,7 @@ expect(toHastTable(tdast)).toEqual({
 
 ## API
 
-### `toHast(tdast[, options])`
+### `toHastTable(tdast[, options])`
 
 #### Interface
 ```ts
@@ -253,7 +253,7 @@ function toHastTable(
 ): Hast;
 ```
 
-Transforms a tdast `Table` node into a [hast][] table node.  The rough transformation behavior is performed from tdast to hast:
+Transforms a tdast `Table` node into a [hast][] table node.  A summary of transformation behaviors is listed below:
 - `hast.table` from `tdast.Table`
 - `hast.tr` from `tdast.Row`
 - `hast.th` from `tdast.Column`
